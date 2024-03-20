@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Description } from './styles/styled'
+import { AppBody, Container, Description } from './styles/styled'
 
 function App() {
   return (
@@ -42,6 +42,10 @@ function App() {
           />
         </a>
       </Description>
+      <AppBody>
+        <p>DogForm</p>
+        <p>Results</p>
+      </AppBody>
     </Container>
   )
 }
